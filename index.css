@@ -1,0 +1,213 @@
+body {
+    background-color: #db9d00;
+    color: #ffffff;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+  }
+  
+  a {
+    color: #00c8ff;
+  }
+  
+  nav {
+    margin-bottom: 40px;
+  }
+  
+  p {
+    text-align: center;
+  }
+  
+  title {
+    width: 100%;
+  }
+  
+  input {
+    width: 100px;
+    height: 25px;
+  }
+  
+  ul {
+    list-style-image: url("https://cdn.discordapp.com/attachments/763155539621838888/932478308694765628/bla.png");
+  }
+  
+  ol {
+    list-style-type: upper-roman;
+    list-style-position: outside;
+  }
+  
+  li {
+    margin-left: 40px;
+    text-align: left;
+  }
+  
+  pre {
+    font-family: Helvetica, Georgia;
+    font-size: inherit;
+    margin: 0px;
+    widows: 4;
+    orphans: 2;
+  }
+  
+  caption {
+    color: #a57c00;
+    font: bold 40px Garamond, Georgia;
+    padding: 4px;
+  }
+  
+  .listCaption {
+    background-repeat: repeat-x;
+    background-image: url("https://static4.depositphotos.com/1016929/320/i/950/depositphotos_3202168-stock-photo-money-background.jpg")
+  }
+  
+  h1 {
+    page-break-before: always;
+    page-break-after: always;
+    background-color: #ffffff;
+    color: #a57c00;
+    font-family: Garamond, Georgia;
+    font-size: 70px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0px;
+    text-transform: capitalize;
+  }
+  
+  h2 {
+    font-family: Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 26px;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 900;
+    font-variant: small-caps;
+    margin: 2px;
+  }
+  
+  h3 {
+    background-color: #ffffff;
+  }
+  
+  h4 {
+    text-align: left;
+    font-style: oblique;
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-left: 6px;
+  }
+  
+  .tableImg {
+    height: 150px;
+  }
+  
+  .tablePhones {
+    color: #a57c00;
+    font-family: Helvetica, sans-serif;
+    width: 100%;
+    border-color: #a57c00;
+    border-style: solid;
+    border-width: thin;
+    border-spacing: 2px;
+    text-align: center;
+    margin-top: 6px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 6px;
+  }
+  
+  .aTable:link {
+    color: red;
+  }
+  
+  .aTable:visited {
+    color: #a60000;
+  }
+  
+  .aTable:hover {
+    color: #a60000;
+  }
+  
+  .aTable:active {
+    color: #a60000;
+  }
+  
+  .aTable:focus {
+    color: #ff2929;
+  }
+  
+  .contactTable {
+    color: #a57c00;
+    font-family: Helvetica, sans-serif;
+    width: 100%;
+    border: 2px solid #ffffff;
+    text-align: left;
+    text-indent: 20px;
+  }
+  
+  .contactCaption {
+    caption-side: bottom;
+    background: rgba(255, 255, 255, 1);
+  }
+  
+  td, th {
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    width: 10px;
+  }
+  
+  th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  
+  figure {
+    padding-left: 0px;
+    margin: 0px;
+    margin-left: 20px;
+    font-size: 18px;
+  }
+  
+  dt {
+    text-align: left;
+    font-style: normal;
+    margin-left: 0px;
+    font-size: 20px;
+    
+  }
+  
+  dd {
+    list-style: square inside;
+    text-align: left;
+    margin-left: 40px;
+    padding-bottom: 10px;
+  }
+  
+  .dtImg {
+    float: left;
+    vertical-align: baseline;
+    height: 40px;
+  }
+
+  #listBrand, #listOS, #listModel, #listImage, #listScreen {
+    cursor: pointer;
+  }
+
+  #listBrand:hover {
+    background-color:rgb(232, 216, 48)
+  }
+
+  #listOS:hover {
+    background-color:rgb(232, 216, 48)
+  }
+
+  #listModel:hover {
+    background-color:rgb(232, 216, 48)
+  }
+
+  #listImage:hover {
+    background-color:rgb(232, 216, 48)
+  }
+
+  #listScreen:hover {
+    background-color:rgb(232, 216, 48)
+  }

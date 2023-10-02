@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="index.css">
+    <title>Luxury Mobile Market</title>
+    <script src="index.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  </head>
+
+  <body>
+    <button type = "button" id="resetButton">RESET</button>
+    <section>
+      <h1>Luxury mobile market</h1>
+      <nav>
+        <p>
+          <a href="#list" title="list">List</a>
+          <a href="#review" title="review">Reviews</a>
+          <a href="#details" title="details">Details</a>
+        </p>
+      </nav>
+    </section>
+
+    <section>
+      <h2>Only the Best</h2>
+      <pre>Our company was selected for the <strong>"<abbr title="Top Tier Award"><a href ="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">TTA</a></abbr>"</strong>, the
+      best there can be in the internet, as they are the finest mobile phones
+      of them all.</pre><br><br><h4>Here is a list of all the awards won:</h4>
+
+      <ul>
+        <li>Top Tier Award</li>
+        <li>Best Marketing Award</li>
+        <li>Market Monopoly Award</li>
+        <li>Nobel Prize for Greed</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Top Rated Phones by User Reviews:</h2>
+      <ol>
+        <li>iPhone X</li>
+        <li>Samsung Galaxy A20 FE</li>
+        <li>Nokia 3310</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Welcome to the Palace of Mobile Devices</h2>
+      Here at this shop, we sell the best quality phones! Take a look at them:<br>
+    </section>
+
+    <section id="list">
+      <form class="productsForm" action="https://wt.ops.labs.vu.nl/api22/f43c7ea1" method="post">
+        <table class="tablePhones">
+          <caption class="listCaption"><h3>Luxurious List</h3></caption>
+          <tr class="listTemplate">
+            <th id = "listBrand">Brand</th>
+            <th id = "listOS">OS</th>
+            <th id = "listModel">Model</th>
+            <th id = "listScreen">Screen Size</th>
+            <th id="listImage">Image</th>
+          </tr>
+          <tr>
+            <td>
+              <input type="text" id="brand" name="brand" required>
+            </td>
+            <td>
+              <input type="text" id="model" name="model" required>
+            </td>
+            <td>
+              <input type="text" id="os" name="os" required>
+            </td>
+            <td>
+              <input type="number" id="screensize" name="screensize" required>
+            </td>
+            <td>
+              <input type="url" id="image" name="image" required>
+            </td>
+          </tr>
+          <tr>
+            <td colspan=5> <input id="formSubmit" type="submit" value="Post"></td>
+          </tr>
+        </table>
+      </form>
+    </section>
+
+    <section id="review">
+      <h2>Reviews</h2>
+      <dl>
+        <dt><figure><img class="dtImg" src="https://www.nicepng.com/png/detail/933-9332131_profile-picture-default-png.png" alt=""/><figcaption><em>Jelena Filipović</em></figcaption></figure>Great service
+        </dt>
+        <dd>I ordered my phone online through this website and I love my new 24k
+           iPhone 8, its the fanciest and the most luxurious and it arrived in a
+           single day.
+        </dd>
+        <dt><figure><img class="dtImg" src="https://www.nicepng.com/png/detail/933-9332131_profile-picture-default-png.png" alt=""/><figcaption><em>Ioannis Hannis</em></figcaption></figure>Very good
+        </dt>
+        <dd>Ayo bro this website kicks ass, 10/10.
+        </dd>
+        <dt><figure><img class="dtImg" src="https://www.nicepng.com/png/detail/933-9332131_profile-picture-default-png.png" alt=""/><figcaption><em>Harry Swindin</em></figcaption></figure>Bonkers mate
+        </dt>
+        <dd>This website is astonishing, I would rate an 11/10, I paid 1000 quid
+          of which I don't regret a penny.
+        </dd>
+      </dl>
+    </section>
+
+    <section id="details">
+      <h2>Contact Details</h2><br><br>
+      <table class="contactTable">
+        <caption class="contactCaption">Visit Our Store!</caption>
+        <tr>
+          <th id="detailsName">Store Name</th>
+          <th id="detailsEmail">Email</th>
+          <th id="detailsPhone1">Contact Phone 1</th>
+          <th id="detailsPhone2">Contact Phone 2</th>
+          <th id="detailsAddress">Address</th>
+          <th id="detailsPostcode" >Postcode</th>
+        </tr>
+        <tr>
+          <td>Luxury Mobile Market Amsterdam</td>
+          <td>luxuriousmobiles@luxury.nl</td>
+          <td>+31 068295473</td>
+          <td>+31 064352819</td>
+          <td>Square Street, Amsterdam, NL</td>
+          <td>1149AA</td>
+        </tr>
+        <tr>
+          <td>Luxury Mobile Market Belgrade</td>
+          <td>luxuriousmobiles@luxury.rs</td>
+          <td>+381 62326722</td>
+          <td>+381 61469266</td>
+          <td>Vuka Vrcevica, Belgrade, SRB</td>
+          <td>11000</td>
+        </tr>
+        <tr>
+          <td>Luxury Mobile Market Madrid</td>
+          <td>luxuriousmobiles@luxury.es</td>
+          <td>+34 667001370</td>
+          <td>+34 689451237</td>
+          <td>Plaza de Sol, Madrid, ES</td>
+          <td>35400</td>
+        </tr>
+      </table>
+    </section>
+  </body>
+</html>
